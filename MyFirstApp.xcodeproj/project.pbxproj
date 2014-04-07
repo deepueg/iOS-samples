@@ -19,6 +19,7 @@
 		A5E47E1118F30D9200547797 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E47DF918F30D9200547797 /* UIKit.framework */; };
 		A5E47E1918F30D9200547797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5E47E1718F30D9200547797 /* InfoPlist.strings */; };
 		A5E47E1B18F30D9200547797 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E47E1A18F30D9200547797 /* MyFirstAppTests.m */; };
+		A5E47E2618F31A2B00547797 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E47E2518F31A2B00547797 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A5E47E1618F30D9200547797 /* MyFirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		A5E47E1818F30D9200547797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5E47E1A18F30D9200547797 /* MyFirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppTests.m; sourceTree = "<group>"; };
+		A5E47E2418F31A2B00547797 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A5E47E2518F31A2B00547797 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				A5E47E0518F30D9200547797 /* AppDelegate.m */,
 				A5E47E0718F30D9200547797 /* Images.xcassets */,
 				A5E47DFC18F30D9200547797 /* Supporting Files */,
+				A5E47E2418F31A2B00547797 /* Person.h */,
+				A5E47E2518F31A2B00547797 /* Person.m */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E47E2618F31A2B00547797 /* Person.m in Sources */,
 				A5E47E0618F30D9200547797 /* AppDelegate.m in Sources */,
 				A5E47E0218F30D9200547797 /* main.m in Sources */,
 			);
