@@ -17,19 +17,7 @@
     self.window = [window initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    Person *person = [[Person alloc] init];
-    
-    //Both setters are equivalent
-    [person setName:@"John"];
-    person.name = @"John";
-    [person setAge:40];
-    person.age = 40;
-
-    //Both getters are equivalent
-    NSString *personName = [person name];
-    personName = person.name;
-    int personAge = [person age];
-    personAge = person.age;
+    Person *person = [[Person alloc] initWithName:@"John" age:40];
     
     self.window.backgroundColor = [UIColor blueColor];
     [self.window makeKeyAndVisible];
