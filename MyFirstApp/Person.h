@@ -10,4 +10,11 @@
 
 @interface Person : NSObject
 
+@property NSString *name;
+@property int age;
+
+- (id)initWithName:(NSString *)name age:(int)age;
+- (void)walk;
+- (void)talk;
+
 @end
