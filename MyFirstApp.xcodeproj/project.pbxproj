@@ -20,6 +20,8 @@
 		A5E47E1918F30D9200547797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5E47E1718F30D9200547797 /* InfoPlist.strings */; };
 		A5E47E1B18F30D9200547797 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E47E1A18F30D9200547797 /* MyFirstAppTests.m */; };
 		A5E47E2618F31A2B00547797 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E47E2518F31A2B00547797 /* Person.m */; };
+		A5E47E2A18F3508300547797 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E47E2818F3508300547797 /* RootViewController.m */; };
+		A5E47E2B18F3508300547797 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E47E2918F3508300547797 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A5E47E1A18F30D9200547797 /* MyFirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppTests.m; sourceTree = "<group>"; };
 		A5E47E2418F31A2B00547797 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A5E47E2518F31A2B00547797 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A5E47E2718F3508300547797 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A5E47E2818F3508300547797 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A5E47E2918F3508300547797 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 			children = (
 				A5E47E0418F30D9200547797 /* AppDelegate.h */,
 				A5E47E0518F30D9200547797 /* AppDelegate.m */,
+				A5E47E2718F3508300547797 /* RootViewController.h */,
+				A5E47E2818F3508300547797 /* RootViewController.m */,
+				A5E47E2918F3508300547797 /* RootViewController.xib */,
 				A5E47E0718F30D9200547797 /* Images.xcassets */,
 				A5E47DFC18F30D9200547797 /* Supporting Files */,
 				A5E47E2418F31A2B00547797 /* Person.h */,
@@ -226,6 +234,7 @@
 			files = (
 				A5E47E0018F30D9200547797 /* InfoPlist.strings in Resources */,
 				A5E47E0818F30D9200547797 /* Images.xcassets in Resources */,
+				A5E47E2B18F3508300547797 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +255,7 @@
 			files = (
 				A5E47E2618F31A2B00547797 /* Person.m in Sources */,
 				A5E47E0618F30D9200547797 /* AppDelegate.m in Sources */,
+				A5E47E2A18F3508300547797 /* RootViewController.m in Sources */,
 				A5E47E0218F30D9200547797 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

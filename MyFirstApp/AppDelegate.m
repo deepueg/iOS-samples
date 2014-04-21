@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Person.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
@@ -16,9 +17,9 @@
     UIWindow *window = [UIWindow alloc];
     self.window = [window initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    Person *person = [[Person alloc] initWithName:@"John" age:40];
-    
+    RootViewController *rootVC = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    self.window.rootViewController = rootVC;
+        
     self.window.backgroundColor = [UIColor blueColor];
     [self.window makeKeyAndVisible];
     return YES;
